@@ -24,26 +24,27 @@ Ensure one of the following Python versions is installed:
 - Python `3.13` (if available)
 
 Verify installation:
-  > python --version `
+   
+    python --version 
 
 ### 🧪 Setting Up Virtual Environment
 Create a virtual environment for Python 3.10:
 
-> 'python -m venv venv310 
+    python -m venv venv310 
 ### Activate the virtual environment (PowerShell):
- > .\venv310\Scripts\Activate.ps1
+    .\venv310\Scripts\Activate.ps1
 
 ### If you face execution policy issues:
 
-> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### Then re-run:
-   > .\venv310\Scripts\Activate.ps1
+    .\venv310\Scripts\Activate.ps1
 
  ### After activating the virtual environment:
 
 📦 Installing Required Packages
 
-   > pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ### Make sure requirements.txt is in the root of your project.
 
@@ -52,13 +53,13 @@ Create a virtual environment for Python 3.10:
 
 ### ▶️ Task 1: Big Data Analysis
 
-  > cd task 1
+    cd task 1
   
      python big_data_analysis.py
 
 ### ▶️ Task 2: Diabetes Prediction
 
-  > cd task 2
+     cd task 2
   
      python predictive_analysis.py
 
@@ -66,7 +67,7 @@ Create a virtual environment for Python 3.10:
 
 ## *Make sure Tweets.csv is in the same directory as the script.*
 
-  > cd task 4
+    cd task 4
   
      python sentiment_analysis.py
 
