@@ -54,13 +54,13 @@ Create a virtual environment for Python 3.10:
 
   > cd task 1
   
-  python big_data_analysis.py
+     python big_data_analysis.py
 
 ### ▶️ Task 2: Diabetes Prediction
 
   > cd task 2
   
-   python predictive_analysis.py
+     python predictive_analysis.py
 
 ### ▶️ Task 3: Sentiment Analysis (Tweets)
 
@@ -68,7 +68,7 @@ Create a virtual environment for Python 3.10:
 
   > cd task 4
   
-   python sentiment_analysis.py
+     python sentiment_analysis.py
 
 ### 📁 Folder Structure
 data-analysis/
