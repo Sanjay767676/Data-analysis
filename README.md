@@ -1,52 +1,86 @@
-# 🚖 Big Data Analysis Using PySpark — NYC Yellow Taxi Trip Data
+# 📘 Data Analysis Internship Tasks
 
-## 🔍 Overview
-This project demonstrates large-scale data analysis using PySpark on the **NYC Yellow Taxi trip dataset (January 2023)** in **Parquet format**. It includes real-time aggregation, statistical insights, and professional data visualizations.
+This project contains three tasks completed during the CodTech Data Analysis internship.
 
-## 📁 Dataset
-- **Format**: `.parquet`
-- **Size**: ~3 million records
-- **Fields**: Pickup time, dropoff time, fare amount, trip distance, locations, etc.
+---
+> this symbol indicates commed to be run in vs terminal 
+## ✅ Prerequisites
 
-## 🧰 Tools Used
-- [PySpark 4.0.0](https://spark.apache.org/)
-- [Pandas](https://pandas.pydata.org/)
-- [Seaborn](https://seaborn.pydata.org/)
-- [Matplotlib](https://matplotlib.org/)
+☑️ **Install Visual Studio Installer Components**  
+Make sure Visual Studio Installer is installed with:
 
-## 📊 Key Insights Extracted
-- **Peak pickup hours**: 5 PM – 8 PM
-- **Most popular pickup zone**: Location ID `132`
-- **Average trip distance**: ~3.85 miles
-- **Fare spikes**: Early mornings around 5–6 AM
+- `C++ Build Tools`
+- `Windows SDK (basic required build tools)`
 
-## 📈 Visualizations
-- 📌 Bar chart of **trips by hour**
-- 🚕 Top 10 **pickup locations**
-- 💵 Line chart of **average fare by hour**
+ 🛠️ This is needed for compiling Python packages that rely on native extensions.
 
-Charts are auto-saved as PNGs:
-trips_by_hour.png
-top_pickups.png
-fare_by_hour.png
+---
 
+## 🐍 Python Installation
 
-## 🔧 How to Run 
-   install python 3.9 / 3.13 
-### Prerequisites
-Install  dependencies: through windows powershell / cmd / vs terminal 
-```bash
-pip install -r requirements.txt
-## Run the code 
+Ensure one of the following Python versions is installed:
 
-File structure 
-  mainfolder/
-├── yellow_tripdata_2023-01.parquet
-├── big_data_analysis_with_charts.py
+- Python `3.10`
+- Python `3.13` (if available)
+
+Verify installation:
+  > python --version `
+
+### 🧪 Setting Up Virtual Environment
+Create a virtual environment for Python 3.10:
+
+> 'python -m venv venv310 
+### Activate the virtual environment (PowerShell):
+ > .\venv310\Scripts\Activate.ps1
+
+### If you face execution policy issues:
+
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+### Then re-run:
+   > .\venv310\Scripts\Activate.ps1
+
+ ### After activating the virtual environment:
+
+📦 Installing Required Packages
+
+   > pip install -r requirements.txt
+
+### Make sure requirements.txt is in the root of your project.
+
+🧠 Running Tasks (VS Code)
+📌 Important: Open dedicated terminal in VS Code for each task.
+
+### ▶️ Task 1: Big Data Analysis
+
+  > cd task 1
+  > python big_data_analysis.py
+
+### ▶️ Task 2: Diabetes Prediction
+
+  > cd task 2
+  > python predictive_analysis.py
+
+### ▶️ Task 3: Sentiment Analysis (Tweets)
+
+## *Make sure Tweets.csv is in the same directory as the script.*
+
+  > cd task 4
+  > python sentiment_analysis.py
+
+### 📁 Folder Structure
+data-analysis/
+│
+├── task 1/
+│   └── big_data_analysis.py
+│
+├── task 2/
+│   ├── diabetes.csv
+│   └── predictive_analysis.py
+│
+├── task 4/
+│   ├── Tweets.csv
+│   └── sentiment_analysis.py
+│
 ├── requirements.txt
-├── README.md
-├── trips_by_hour.png
-├── top_pickups.png
-├── fare_by_hour.png
+└── README.md
 
-Author : SANJAY K 2025
